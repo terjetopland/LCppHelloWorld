@@ -1,0 +1,3 @@
+C:\Users\terje\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\LCppHelloWorld.dir/objects.a
+C:\Users\terje\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\mingw\bin\ar.exe qc CMakeFiles\LCppHelloWorld.dir/objects.a @CMakeFiles\LCppHelloWorld.dir\objects1.rsp
+C:\Users\terje\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\LCppHelloWorld.dir/objects.a -Wl,--no-whole-archive -o LCppHelloWorld.exe -Wl,--out-implib,libLCppHelloWorld.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LCppHelloWorld.dir\linklibs.rsp
