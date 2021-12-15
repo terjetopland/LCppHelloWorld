@@ -13,11 +13,12 @@ int main() {
     cout << "Please tell what your first words in the console was\n";
     getline(cin, theFirstConsoleWo);
 
-    if(theFirstConsoleWo.compare(Hello+comma+space+World) != true || theFirstConsoleWo.compare(Hello+comma+space+World+exclamationMark) != true )
-        cout << "That was exactly the same as me" << endl;
-    else
+    string helloWorld = Hello + comma + space + World + exclamationMark;
 
-    cout << "Really?? Mine was this.\n" << Hello << comma << space << World << exclamationMark << endl;
+    if(theFirstConsoleWo == helloWorld)
+        cout << "So your words was:" << "'" << theFirstConsoleWo << "'" << "\n" << "That was exactly the same as me" << endl;
+    else
+        cout << "Was it really: " << "'" << theFirstConsoleWo << "'" << "?\n"<<"My was this: " << helloWorld << endl;
 
 
 
